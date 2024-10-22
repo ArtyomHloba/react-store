@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   background-color: #2a2a2a;
-  color: white;
   border-radius: 12px;
-  padding: 0.5rem;
+  padding: 10px 20px;
+  border: 1px solid white;
 }
 
 .expenseDateMonth {
@@ -15,9 +15,10 @@
 
 .expenseDateYear {
   font-size: 0.75rem;
+  margin-bottom: 5px;
 }
 
 .expenseDateDay {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }

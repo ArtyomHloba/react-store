@@ -19,7 +19,7 @@ const FilterByYear = ({ selectedYear, onYearChange, onMonthChange }) => {
   return (
     <div className={styles.filterByYear}>
       <div className={styles.filterByYearControl}>
-        <label>Filter by year</label>
+        <label>Filter by year </label>
         <select
           value={selectedYear}
           onChange={e => onYearChange(e.target.value)}
