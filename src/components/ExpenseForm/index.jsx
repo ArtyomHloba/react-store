@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Formik, Form, Field } from 'formik'
 import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
@@ -20,15 +19,15 @@ const ExpenseForm = ({ onAddExpense, onCancel }) => {
       {({ setFieldValue, values }) => (
         <Form className={styles.expenseForm}>
           <div className={styles.expenseFormControl}>
-            <label>Title</label>
+            <label>Title </label>
             <Field name='title' type='text' />
           </div>
-          <div className={styles.expenseFormContro}>
-            <label>Amount</label>
+          <div className={styles.expenseFormControl}>
+            <label>Amount </label>
             <Field name='amount' type='number' />
           </div>
           <div className={styles.expenseFormControl}>
-            <label>Date</label>
+            <label>Date </label>
             <DatePicker
               selected={values.date}
               onChange={date => setFieldValue('date', date)}
