@@ -1,0 +1,19 @@
+.filterByYear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.filterByYearMonths {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filterByYearMonths button {
+  background-color: #e0b3ff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

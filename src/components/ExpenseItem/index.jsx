@@ -1,6 +1,6 @@
-import styles from './ExpenseItem.module.css'
 import ExpenseDate from './../ExpenseDate/index.jsx'
 import Card from './../Card/index.jsx'
+import styles from './ExpenseItem.module.css'
 
 const ExpenseItem = ({ date, title, amount }) => {
   return (

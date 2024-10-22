@@ -1,0 +1,24 @@
+.expenseForm {
+  background-color: #b19cd9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+
+.expenseFormControl {
+  margin-bottom: 0.5rem;
+}
+
+.expenseFormActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expenseFormActions button {
+  background-color: #5c007a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
