@@ -139,4 +139,6 @@ body {
   font-size: 20px;
   background-color: #3f3f3f;
   padding: 0 2rem;
+  max-width: 1140px;
+  margin: 0 auto;
 }
